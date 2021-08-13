@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./_style/style.css" />
+    <title>saktiv2</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <div class="logo-horizontal">
+          <img class="horizontal" src="./_assets/logo.png" alt="logo-sakti" />
+        </div>
+        <div class="logo-vertical">
+          <img
+            class="vertical"
+            src="./_assets/logo_vertical.png"
+            alt="logo-vertical"
+          />
+        </div>
+        <div class="form-login">
+          <form action="login">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              name="user"
+              id="user"
+              placeholder="Your username"
+            />
+            <br />
+            <label htmlFor="password">Password: </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your password"
+            />
+            <br />
+            <label for="years">Years:</label>
+            <select name="years" id="years">
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+            </select>
+            <br />
+            <button type="submit">Login</button>
+          </form>
+          <div class="form-sign-up">
+            <p>Don't have an account?</p>
+            <a href="#">Signup now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
